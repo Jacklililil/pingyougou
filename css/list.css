@@ -1,0 +1,156 @@
+.sk {
+    position:absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    border-left: 2px solid #b1191a;
+    padding:5px 0 0 15px;
+}
+.sk_list li {
+    float:left;
+    line-height:45px;
+
+}
+.sk_list a {
+    font-size:16px;
+    color:#000;
+    font-weight: 700;
+    margin:0 30px;
+}
+.sk_list li a:hover {
+    color:#c81523;
+    
+}
+.sk_con li{
+    float:left;
+    line-height: 45px;
+    margin:0 20px;
+}
+.sk_con li a {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+/* 列表页内容区 */
+.sk_goods {
+    float:left;
+    position: relative;
+    /* 子元素有absolute */
+    width: 288px;
+    height: 458px;
+    border:1px solid transparent;
+    /* 起始透明 */
+    margin:0 12px 15px 0;
+
+}
+.sk_goods:hover {
+    border:1px solid #e12228;
+}
+.sk_bd ul {
+    width: 1212px;
+    /* 防止装不下，让父盒子加宽 */
+}
+.sk_bd {
+    margin-top: 20px;
+    
+}
+.sk_goods_title {
+    font-size:14px;
+    color:#666;
+    font-weight: normal;
+    padding:0px 10px 5px;
+}
+.sk_good_price {
+    /* padding:0 5px; */
+}
+.sk_good_price  em{
+    font-size: 25px;
+    color:#e60012
+}
+.sk_good_price del {
+    font-size: 14px;
+    font-weight: 700;
+    color:#a4a4a4
+}
+.sk_goods_progress {
+    padding:0 5px;
+}
+.bar {
+    display:inline-block;
+    vertical-align: middle;
+    /* 行内块，可以与同行文字一起显示 */
+    width: 130px;
+    height: 10px;
+    border:1px solid #b1191a;
+    margin:0 5px;
+    border-radius: 5px;
+}
+.bar_in {
+    background-color:#f24349;
+    height: 10px;
+    width: 87%;
+    /* 相对父元素变化 */
+}
+.sk_goods_progress em{
+    color:#f24349;
+}
+.sk_goods_progress i{
+    color:#f24349;
+}
+.sk_goods_buy {
+    position:absolute;
+    bottom: 0;
+    width: 288px;
+    /* 底部对齐 */
+    display: block;
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px;
+    color:#fff;
+}
+.page {
+    margin:40px 0;
+    
+    text-align: center;/* 子元素的文字  行内块  行内元素    都可以居中对齐 */
+    /* 宽度不定，不给宽度 */
+}
+.page_num a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border:1px solid #ccc;
+    background-color: #f7f7f7;
+    line-height: 36px;
+    /* 文字垂直居中 */
+}
+.page_num  .pn_prev,
+.page_num  .pn-next{
+    width: 83px;
+}
+/* 记得提权 */
+.page_num .dotted,
+.page_num  .current {
+    border:1px solid transparent;
+    background-color: transparent;
+}
+.page_skip input{
+    width: 46px;
+    height: 36px;
+    border:1px solid #ccc;
+    text-align: center;
+    transition: all 0.2s;
+}
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border:1px solid #ccc;
+    background-color: #f7f7f7;
+
+}
+.page_skip input:focus {
+    width: 88px;
+    border:1px solid skyblue;
+    
+}

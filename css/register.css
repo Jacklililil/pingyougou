@@ -1,0 +1,125 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    height: 82px;
+    border-bottom:2px solid #b1191a;
+}
+.logo {
+    padding-top: 15px;
+}
+.registerarea {
+    height: 520px;
+    border:1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 40px;
+    background-color: #ececec;
+    line-height: 40px;
+    padding-left: 10px;
+    font-weight: 400;
+    padding-right: 10px;
+    font-size: 18px;
+
+}
+
+.registerarea h3 em {
+    float:right;
+    font-size: 14px;
+}
+.registerarea  a{
+    color:#c81623;
+}
+.reg_form {
+    width: 600px;
+    height: 420px;
+    /* background-color: pink; */
+    margin:40px auto 0;
+}
+.reg_form label{
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: right;
+}
+.reg_form  li {
+    margin-bottom: 15px;
+}
+.inp {
+    width: 238px;
+    height: 34px;
+    border:1px solid #ccc;
+    margin-left: 10px;
+}
+.error {
+    color:#df3033
+}
+.error_icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+    /* 垂直居中 */
+}
+.success {
+    color:#40b83f;
+    margin-left: 10px;
+}
+.success_icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+
+}
+.safe{
+    padding-left: 187px;
+    color:#
+}
+.safe em {
+    padding: 0 12px;
+    color:#fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree  input{
+    /* margin-top:20px */
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.agree  {
+    padding-left: 130px;
+}
+.agree a{
+    color:#1ba1e6;
+}
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    margin:30px 0 0 130px ;
+    border:none;
+    color:#fff;
+    font-size: 14px;
+
+}
+.footer {
+    height: 120px;
+    text-align: center;
+}
+.links {
+    margin-top: 20px;
+    height: 30px;
+}

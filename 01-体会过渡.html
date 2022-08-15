@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            height: 150px;
+            background-color: pink;
+            /* transition:要过渡的属性 花费的时间  运动曲线    何时开始 */
+            
+            /* 运动曲线：linear   ease  ease-in     ease-out    ease-in-out; */
+            /* transition: width 1s ease-in 2s; */
+
+            /* 如果有多个属性，将属性之间用逗号隔开 */
+            /* transition: width 1s ease-in 2s,height 1s ease 0s,background-color 1s ease 1s; */
+
+            /* 全部属性操作 */
+            transition:all 1s ease 0s;
+            /* 过渡写到本身上 */
+        }
+        div:hover {
+            width: 800px;
+            height: 600px;
+            background-color: blue;
+            /* 此处不能写过渡语句 */
+        }
+        
+    
+    </style>
+
+</head>
+<body>
+    <div></div>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+品优购项目是HTML与css语言写的。
+目前还没有加入js部分，是静态网站。
+
+其中：
+register.html	是注册页面
+index.html	是网站主页
+list.html		是二级列表页面
+detail.html	是商品详情页面
